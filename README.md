@@ -148,7 +148,6 @@ docker stop project-amaan
 ### With API Keys
 ```bash
 docker run -d -p 9002:9002 \
-  -e HASHKILLER_API_KEY="your-hashkiller-key" \
   -e HAVEIBEENPWNED_API_KEY="your-hibp-key" \
   --name project-amaan \
   kbinkenaid/project-amaan-webapp:latest
