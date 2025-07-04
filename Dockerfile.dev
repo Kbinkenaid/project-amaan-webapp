@@ -1,0 +1,20 @@
+# Use Node.js 20 Alpine for better Next.js 14 compatibility
+FROM node:20-alpine
+
+# Set working directory
+WORKDIR /app
+
+# Copy package files first for better caching
+COPY package*.json ./
+
+# Remove lock file and install fresh dependencies
+RUN rm -f package-lock.json && npm cache clean --force && npm install
+
+# Copy source code
+COPY . .
+
+# Expose port 9002 (matching your dev port)
+EXPOSE 9002
+
+# Start in development mode (no build required)
+CMD ["npm", "run", "dev"]

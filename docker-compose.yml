@@ -1,0 +1,9 @@
+services:
+  project-amaan:
+    build: .
+    container_name: project-amaan-webapp
+    ports:
+      - "9002:9002"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
