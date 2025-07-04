@@ -11,7 +11,6 @@ A comprehensive web-based security tools suite for penetration testers, security
 
 ### Security Tools
 - **🔍 Breach Detection**: HaveIBeenPwned integration for email/domain breach checking
-- **🔐 Hash Cracking**: Multi-platform hash cracking (HashKiller, CrackStation, Hashes.com)
 - **🌐 Network Tools**: Port scanner and WHOIS/DNS lookup utilities
 - **📝 Encoding Suite**: Base64, URL, HTML encoding/decoding with plain text extraction
 - **🔑 API Management**: Centralized API key configuration
