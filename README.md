@@ -94,10 +94,6 @@ docker run -d -p 8080:9002 --name project-amaan kbinkenaid/project-amaan-webapp:
 - **Domain Analysis**: Analyze domains for security breaches
 - **Demo Mode**: Full functionality available without API key for testing
 
-### 🔐 Hash Cracking
-- **Supported Algorithms**: MD5, SHA1, SHA256, SHA512, and more
-- **Multiple Services**: Integration with HashKiller, CrackStation, and Hashes.com
-- **Batch Processing**: Crack multiple hashes simultaneously
 
 ### 🌐 Network Analysis
 - **Port Scanning**: Scan IP addresses and domains for open ports
