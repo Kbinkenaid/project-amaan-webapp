@@ -54,7 +54,6 @@ services:
       - "9002:9002"
     environment:
       - NODE_ENV=production
-      - HASHKILLER_API_KEY=${HASHKILLER_API_KEY}
       - HAVEIBEENPWNED_API_KEY=${HAVEIBEENPWNED_API_KEY}
     restart: unless-stopped
 ```
@@ -77,7 +76,6 @@ npm run dev
 ## 🔧 Configuration
 
 ### Environment Variables
-- `HASHKILLER_API_KEY`: API key for HashKiller service (optional)
 - `HAVEIBEENPWNED_API_KEY`: API key for HaveIBeenPwned service (optional)
 - `NODE_ENV`: Environment mode (production/development)
 
